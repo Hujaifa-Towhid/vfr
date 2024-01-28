@@ -58,7 +58,7 @@ try:
     IP = requests.get("http://ip-api.com/json/").json()["query"]
     ___ccc___ = requests.get("http://ip-api.com/json/").json()["country"]
     if "Bangladesh" not in ___ccc___:
-       os.system('xdg-open https://github.com/SEFAT-hujaifa ')
+       os.system('xdg-open https://github.com/Hujaifa-Towhid')
        print("\033[1;91m[×] THIS TOOL WORK IN BANGLADESH")
        time.sleep(3)#;exit()
 except requests.exceptions.ConnectionError:
@@ -67,19 +67,19 @@ except requests.exceptions.ConnectionError:
 
 try:
     os.system('clear')
-    srv=requests.get('https://raw.githubusercontent.com/SEFAT-hujaifa /SPIDER/main/srv.txt').text 
+    srv=requests.get('https://raw.githubusercontent.com/SEFAT-MAHADI/SPIDER/main/srv.txt').text 
     if "update" in srv:
         os.system('clear')
         for j in range(3000):
             time.sleep(0.5)
-            os.system('xdg-open https://github.com/SEFAT-hujaifa ')
+            os.system('xdg-open https://github.com/Hujaifa-Towhid')
             print(f'\033[1;92m Tool is updating Wait For Complete The Update')
         exit()
     elif "off" in srv:
         os.system('clear')
         for j in range(1000):
             time.sleep(0.5)
-            os.system('xdg-open https://github.com/hujaifa -143')
+            os.system('xdg-open https://github.com/Hujaifa-Towhid')
             print(f'\033[1;91m Tool is Currenty Off')
         exit()
 except requests.exceptions.ConnectionError:
@@ -244,7 +244,7 @@ def ___uids___():
     os.system('clear')
     logo()
     print(f"{white}[{green}+{white}] BD SIM CODE {green}: 017 015 018 019 013 015 016")
-    os.system('xdg-open https://github.com/SEFAT-hujaifa ')
+    os.system('xdg-open https://github.com/Hujaifa-Towhid')
     code = input(f"{white}[{green}+{white}] SELECT      {green}: {white}")
     print(f"{white}[{green}+{white}] EXAMPLE {green}    : 1000,5000,10000,15000,20000")
     os.system('xdg-open https://www.facebook.com/md.hujaifa.towhid100')
